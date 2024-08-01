@@ -15,13 +15,15 @@
 </head>
 
 <style>
-  .split span {
+ 
+ .split span {
+    
     display: inline-block;
     
   }
   
-
 </style>
+
 
 <body   class="font-poppins selection:text-[#eb9dff] selection:bg-[#146200]">
 
@@ -31,11 +33,11 @@
 
 
     <!-- nav goes here -->
-    <header aria-label="Primary" class="fixed    z-40 flex h-[40px] lg:h-[40px]  w-full items-center bg-[#eb9dff]  ">
-      <a href="index.html" title="Go to homepage"
-        class="group w-full overflow-hidden whitespace-nowrap font-medium uppercase">
+    <header aria-label="Primary" class="fixed  group  z-40 flex h-[40px] lg:h-[40px]  w-full items-center bg-[#eb9dff]  ">
+      <a href="/" title="Go to homepage"
+        class=" w-full overflow-hidden whitespace-nowrap font-medium uppercase">
         <span aria-hidden="true"
-          class="group-hover:paused  inline-block min-w-full animate-loop-scroll  text-secondary text-sm lg:text-base text-[#146200]">
+          class=" group-hover:animate-paused inline-block min-w-full animate-loop-scroll  text-secondary text-sm lg:text-base text-[#146200]">
           Caroline Seiffert&nbsp;&nbsp;&nbsp;Visual Artist&nbsp;&nbsp;&nbsp;Caroline Seiffert&nbsp;&nbsp;&nbsp;Visual
           Artist&nbsp;&nbsp;&nbsp;Caroline Seiffert&nbsp;&nbsp;&nbsp;Visual Artist&nbsp;&nbsp;&nbsp;Caroline
           Seiffert&nbsp;&nbsp;&nbsp;Visual Artist&nbsp;&nbsp;&nbsp;Caroline Seiffert&nbsp;&nbsp;&nbsp;Visual
@@ -44,7 +46,7 @@
           Artist&nbsp;&nbsp;&nbsp;
         </span>
         <span aria-hidden="true"
-          class="group-hover:paused inline-block min-w-full  animate-loop-scroll text-secondary text-[#146200] text-sm lg:text-base">
+          class="group-hover:animate-paused inline-block min-w-full  animate-loop-scroll text-secondary text-[#146200] text-sm lg:text-base">
           Caroline Seiffert&nbsp;&nbsp;&nbsp;Visual Artist&nbsp;&nbsp;&nbsp;Caroline Seiffert&nbsp;&nbsp;&nbsp;Visual
           Artist&nbsp;&nbsp;&nbsp;Caroline Seiffert&nbsp;&nbsp;&nbsp;Visual Artist&nbsp;&nbsp;&nbsp;Caroline
           Seiffert&nbsp;&nbsp;&nbsp;Visual Artist&nbsp;&nbsp;&nbsp;Caroline Seiffert&nbsp;&nbsp;&nbsp;Visual
