@@ -25,7 +25,7 @@
         <a href="/LaKatz-x-Augarten" id="elem1"
           class="flex group  items-center  relative cursor-pointer transition-colors duration-[0.4s] ease-linear hover:bg-[#a4a179] w-full border-b-[0.2px] border-black border-opacity-10 border-solid p-4 sm:p-6 md:p-10 lg:p-12  justify-between">
           <img style=" object-position: center;"
-            class=" group-hover:opacity-100 filter blur-lg group-hover:blur-0   transition-opacity   duration-300  opacity-0 absolute  h-0 w-0   lg:size-[21.5rem] object-cover   "
+            class=" group-hover:opacity-100 filter blur-lg group-hover:blur-0   transition-opacity   duration-300  opacity-0 absolute  select-none  h-0 w-0   lg:size-[21.5rem] object-cover   "
             src="materials/magic hand.webp" alt="">
 
           <h4 class=" font-poppins   font-medium text-white  leading-snug   text-xl mix-blend-exclusion sm:text-4xl">La
@@ -39,7 +39,7 @@
         <a href="/T-shne" id="elem1"
           class="flex group items-center   relative  cursor-pointer  transition-colors duration-[0.4s] ease-linear  hover:bg-[#66bd93] w-full border-b-[0.2px] hover:border-b-0 border-black border-opacity-10 border-solid p-4 sm:p-6 md:p-10 lg:p-12  justify-between">
           <img style=" object-position: center;"
-          class="   group-hover:opacity-100 filter blur-lg group-hover:blur-0    transition-opacity   duration-500  opacity-0 absolute h-0 w-0 lg:size-[21.5rem] object-cover  "
+          class="   group-hover:opacity-100 filter blur-lg group-hover:blur-0    transition-opacity   duration-500  opacity-0 absolute  select-none h-0 w-0 lg:size-[21.5rem] object-cover  "
           src="materials/Shirt.webp" alt="">
 
           <h4 class=" font-poppins  font-medium text-white  leading-snug  text-xl mix-blend-exclusion sm:text-4xl">T/
@@ -53,7 +53,7 @@
         <a  href="/LaKatz" id="elem1"
           class="flex items-center relative cursor-pointer group transition-colors duration-[0.4s] ease-linear  hover:bg-[#fc4b8b] w-full border-b-[0.2px] border-black border-opacity-10 border-solid p-4 sm:p-6 md:p-10 lg:p-12  justify-between">
           <img style=" object-position: center;"
-          class="   group-hover:opacity-100 filter blur-lg group-hover:blur-0   transition-opacity   duration-500  opacity-0 absolute h-0 w-0  object-cover lg:size-[21.5rem] "
+          class="   group-hover:opacity-100 filter blur-lg group-hover:blur-0   transition-opacity   duration-500  opacity-0 absolute  select-none h-0 w-0  object-cover lg:size-[21.5rem] "
           src="materials/pink.webp" alt="">
 
           <h4 class=" font-poppins  font-medium text-white  leading-snug  text-xl mix-blend-exclusion sm:text-4xl">La
@@ -67,7 +67,7 @@
         <a  href="Mono" id="elem1"
           class="flex items-center relative group cursor-pointer transition-colors duration-[0.4s] ease-linear hover:bg-[#50473b] w-full  p-4 sm:p-6 md:p-10 lg:p-12  justify-between">
           <img style=" object-position: center;"
-            class="   group-hover:opacity-100 filter blur-lg group-hover:blur-0   transition-opacity   duration-500  opacity-0 absolute h-0 w-0 lg:size-[21.5rem] object-cover  "
+            class="   group-hover:opacity-100 filter blur-lg group-hover:blur-0   transition-opacity   duration-500  opacity-0 absolute  select-none h-0 w-0 lg:size-[21.5rem] object-cover  "
             src="materials/Yellow f2.webp" alt="">
 
           <h4 class=" font-poppins  font-medium text-white  leading-snug  text-xl mix-blend-exclusion sm:text-4xl">Mono

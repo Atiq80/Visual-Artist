@@ -25,7 +25,7 @@ class MailController extends Controller
         $email = $request->email;
         Mail::to($to)->send(new ContactMail($msg, $name, $email));
         
-        
+    
 
     }
 }

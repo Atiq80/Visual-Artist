@@ -178,8 +178,8 @@ function updatePosition() {
         
         activeDraggable.style.left = x + 'px';
         activeDraggable.style.top = y + 'px';
+        activeDraggable.style.boxShadow = 'rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px';
         activeDraggable.style.transform = 'scale(1.1)';
-        
         if (Math.abs(targetX - x) < 1 && Math.abs(targetY - y) < 1) {
             // Stop animation when close enough to target
             return;
@@ -196,6 +196,7 @@ function endDrag() {
     isDragging = false;
     if (activeDraggable) {
         activeDraggable.style.transform = 'scale(1)';
+        activeDraggable.style.boxShadow = 'none';
         activeDraggable = null;
     }
 }
