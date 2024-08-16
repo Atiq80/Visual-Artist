@@ -23,9 +23,18 @@ class MailController extends Controller
         $name = $request->name;
         $msg = $request->message;
         $email = $request->email;
-        Mail::to($to)->send(new ContactMail($msg, $name, $email));
         
-    
-
+        try {
+            Mail::to($to)->send(new ContactMail($msg, $name, $email));
+            return response()->json([
+                'success' => true,
+                'message' => 'Thank you for contacting us!'
+            ]);
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Error sending email: ' . $e->getMessage()
+            ], 500);
+        }
     }
 }

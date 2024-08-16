@@ -915,7 +915,53 @@ submitBtn.addEventListener('click', function() {
   }
 });
 
-// j
+// 
+
+// JavaScript code that sends the AJAX request
+
+const form = document.getElementById('CONTACT');
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+
+  const formData = new FormData(form);
+  const xhr = new XMLHttpRequest();
+
+  xhr.open('POST', '/mail', true);
+  xhr.setRequestHeader('X-CSRF-TOKEN', '{{ csrf_token() }}');
+
+  xhr.onload = function() {
+    if (xhr.status === 200) {
+      const response = JSON.parse(xhr.responseText);
+      if (response.success) {
+       
+        gsap.to("#first-slot", {
+          display: "none",
+          duration: 0,
+          ease: 'power4'
+          
+        });
+        gsap.to("#second-slot", {
+          display: "block",
+          duration: 0,
+          ease: 'power4'
+        });
+
+        
+      } else {
+        alert('Error sending email: ' + response.message);
+      }
+    } else {
+      alert('Error sending email: ' + xhr.statusText);
+    }
+  };
+
+  xhr.onerror = function() {
+    alert('Error sending email: ' + xhr.statusText);
+  };
+
+  xhr.send(formData);
+});
 
 // for quickly with smooth view page
 
