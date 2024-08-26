@@ -102,7 +102,6 @@ EXP.addEventListener('click', () => {
     gsap.to(Parent, { duration: 0, padding: "14.5%", })
     gsap.to(EMG, { duration: 0, ease: "power1", scale: "0.7" })
 
-
     isExpanded2 = true;
   }
 });
@@ -575,15 +574,16 @@ imageContainers.forEach((container) => {
     const x = event.clientX - rect.left;
     const y = event.clientY - rect.top;
 
-    const imageX = x + image.width - 280;  // Adjust this value as needed
+    const imageX = x + image.width - 300;  // Adjust this value as needed
 
     // Use GSAP for smooth animation
     gsap.to(image, {
       x: imageX,
       y: y,
-      duration: 1.5,  // Adjust duration as needed
-      ease: "expo"  // Adjust ease type as desired (e.g., ease, power2.out, etc.)
+      duration: 2,  // Adjust duration as needed
+      ease: "expo.out"  // Adjust ease type as desired (e.g., ease, power2.out, etc.)
     });
+    
   });
 });
 

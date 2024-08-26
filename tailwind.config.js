@@ -5,8 +5,9 @@ export default {
     "./resources/**/*.vue"],
   theme: {
     extend: {
+
       
-    
+      
       fontFamily: {
 
         poppins:["poppins", "sans-serif"]
